@@ -1,6 +1,6 @@
-#Moqat3a
-##Project Description
-###Moqat3a is a web application that aims to provide users with information about companies that have business dealings with Israel and offer alternative options. The project seeks to promote awareness and support for ethical consumer choices by providing users with alternative companies that align with their values.
+# Moqat3a
+## Project Description
+### Moqat3a is a web application that aims to provide users with information about companies that have business dealings with Israel and offer alternative options. The project seeks to promote awareness and support for ethical consumer choices by providing users with alternative companies that align with their values.
 The main features of the Moqat3a project include:
 
     Company Database: The application maintains a database of companies that engage in business activities with Israel. The database includes information such as company name, description, contact details, and the nature of their involvement with Israel.
