@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Moqat3a</title>
     <link rel="stylesheet" href="Assets/CSS/style.css">
+    <link rel="stylesheet" href="Assets/CSS/HomePage.css">
 
 </head>
 
@@ -22,20 +23,22 @@
 
     <!-- Logo and Search bar -->
     <div class="logo-search">
-        <h1 class="logo">Your Logo</h1>
-        <form id="search-form">
-            <input type="text" id="search-input" class="search-bar" placeholder="Search..." />
-            <button type="submit">Search</button>
+        <div class="Logo-img">
+            <img src="Assets/imgs/Moqat3a-Logo.png" alt="Logo">
+        </div>
+        <form id="search-form" onsubmit="event.preventDefault();" role="search">
+            <label for="search">Search for stuff</label>
+            <input id="search-input" type="search" placeholder="Search..." autofocus required />
+            <button type="submit">Go</button>
         </form>
     </div>
+
+
 
     <!-- Search Results -->
     <div id="search-results"></div>
 
-    <!-- Footer -->
-    <div class="footer">
-        &copy; 2023 Moqt3a. All rights reserved.
-    </div>
 </body>
 <script src="Assets/JS/main.js"></script>
+
 </html>
