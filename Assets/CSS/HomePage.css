@@ -28,12 +28,6 @@ html {
   box-sizing: inherit;
 }
 
-form {
-  position: relative;
-  width: 30rem;
-  background: var(--color-brand);
-  border-radius: var(--rad);
-}
 input,
 button {
   height: var(--height);
@@ -95,4 +89,22 @@ label {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.Search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 990px) {
+  input[type="search"] {
+    width: 88vw;
+    top: 22vh;
+  }
+  .Logo-img img {
+    width: 51vw;
+    top: 20vh;
+    position: relative;
+  }
 }
