@@ -138,7 +138,7 @@ label {
   grid-template-areas: "h4 control" "img img";
   margin-bottom: 1em;
   border-radius: 0.5em;
-  background-color: #45186b;
+  background-color: #451952;
   transition: all 0.35s ease-in-out;
   padding: 0.5em;
 }
@@ -150,6 +150,7 @@ label > h4 {
   animation: text-hide var(--text-duration) ease-in-out; */
   transition: height var(--text-duration) ease-in-out;
   grid-area: h4;
+  text-align: center;
 }
 
 label > .control {
@@ -165,6 +166,16 @@ label > .slider {
   overflow: hidden;
   transition: all var(--slide-duration);
   height: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+
+.slider h5 {
+  margin-bottom: 3vh;
 }
 
 input:checked + label > .slider {
@@ -328,6 +339,22 @@ input:checked ~ label > .control {
   main {
     font-size: 1rem;
   }
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 10px; /* Adjust the gap between images as desired */
+}
+
+.grid-container a {
+  display: block;
+}
+
+.grid-container img {
+  width: 100%;
+  height: auto;
 }
 
 @media all and (min-width: 1023px) {

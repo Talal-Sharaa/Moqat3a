@@ -1,11 +1,24 @@
 /* CSS styles for the navigation bar */
+
+:root {
+  --color-dark: #2f2f2f;
+--color-light: #fff;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
 .navbar {
-  background-color: #333;
+  background-color: var(--color-light);
   color: #fff;
-  padding: 10px;
+  padding: 10px 0;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100vw;
 }
 
 .navbar ul {
@@ -21,7 +34,7 @@
 
 .navbar li a {
   display: block;
-  color: #fff;
+  color: var(--color-dark);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;

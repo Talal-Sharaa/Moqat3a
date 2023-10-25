@@ -4,7 +4,7 @@
   --dur: 0.3s;
   --color-dark: #2f2f2f;
   --color-light: #fff;
-  --color-brand: #8b0000;
+  --color-brand: #490e0e;
   --font-fam: "Lato", sans-serif;
   --height: 5rem;
   --btn-width: 6rem;
@@ -12,13 +12,15 @@
 }
 
 body {
-  background: var(--color-dark);
+  font-family: "Almarai", "BIZ UDGothic", sans-serif;
+  min-height: 100vh;
+  background: var(--color-brand);
   min-height: 100vh;
 }
 html {
   box-sizing: border-box;
   height: 100%;
-  font-size: 12px;
+  font-size: 16px;
 }
 *,
 *::before,
@@ -37,7 +39,7 @@ button {
   height: var(--height);
   font-family: var(--font-fam);
   border: 0;
-  color: var(--color-light);
+  color: var(--color-dark);
   font-size: 1.8rem;
 }
 input[type="search"] {
@@ -59,7 +61,7 @@ button {
   right: 0;
   width: var(--btn-width);
   font-weight: bold;
-  background: var(--color-brand);
+  background: var(--color-light);
   border-radius: 0 var(--rad) var(--rad) 0;
 }
 input:not(:placeholder-shown) {
@@ -88,9 +90,9 @@ label {
   width: 20vw;
 }
 
-.logo-search{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.logo-search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
