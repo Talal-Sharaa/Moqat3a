@@ -43,16 +43,10 @@ input[type="search"] {
   padding: 0 1.6rem;
   border-radius: var(--rad);
   appearance: none;
-  transition: all var(--dur) var(--bez);
-  transition-property: width, border-radius;
   z-index: 1;
   position: relative;
 }
 
-input:not(:placeholder-shown) {
-  border-radius: var(--rad) 0 0 var(--rad);
-  width: calc(100% - var(--btn-width));
-}
 label {
   position: absolute;
   clip: rect(1px, 1px, 1px, 1px);
