@@ -48,22 +48,10 @@ input[type="search"] {
   z-index: 1;
   position: relative;
 }
-button {
-  display: none;
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: var(--btn-width);
-  font-weight: bold;
-  background: var(--color-light);
-  border-radius: 0 var(--rad) var(--rad) 0;
-}
+
 input:not(:placeholder-shown) {
   border-radius: var(--rad) 0 0 var(--rad);
   width: calc(100% - var(--btn-width));
-  + button {
-    display: block;
-  }
 }
 label {
   position: absolute;
