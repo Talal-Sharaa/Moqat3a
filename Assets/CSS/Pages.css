@@ -162,7 +162,7 @@ label > .slider {
 }
 
 .slider {
-  margin-top: 1em;
+  margin-top: -3em;
   overflow: hidden;
   transition: all var(--slide-duration);
   height: 0;
@@ -174,7 +174,8 @@ label > .slider {
   position: relative;
 }
 
-.slider h5 {
+.slider p {
+  font-size: 16px;
   margin-bottom: 3vh;
 }
 
@@ -357,6 +358,23 @@ input:checked ~ label > .control {
   height: auto;
 }
 
+@media (max-width: 799px) {
+  .slider > img {
+    height: 25vh;
+  }
+  .slider p {
+    width: 80vw;
+    font-size: 12px;
+  }
+  label h4 {
+    font-size: 16px;
+  }
+}
+  @media (min-width: 800px) and (max-width: 990px){
+    .slider img {
+      width: 28vw;
+    }
+}
 @media all and (min-width: 1023px) {
   /*descktop*/
   :root {
