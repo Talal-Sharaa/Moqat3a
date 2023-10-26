@@ -3,7 +3,7 @@
 :root {
   --color-one: #130e23;
   --color-two: #364b44;
-  --text-color: #c2e6ef;
+  --text-color: #ddf8ff;
   --mem-width: min(38em, calc(100vw - 4em));
   --mem-height: 55vh;
   --slide-duration: 0.9s;
@@ -326,7 +326,7 @@ input:checked ~ label > .control {
   body {
     background-image: url(Assets/imgs/Free_Paalestine.jpg),
       url("https://lidachk.github.io/cssBayan/cssBayan/assets/filter.svg"),
-      linear-gradient(90deg, #8b0000, #8b0000, #8b0000);
+      linear-gradient(90deg, #500101, #500101, #500101);
   }
 }
 @media all and (min-width: 820px) and (max-width: 1022px) {
@@ -350,6 +350,26 @@ input:checked ~ label > .control {
   grid-gap: 10px; /* Adjust the gap between images as desired */
 }
 
+.grid-container-Tech {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-gap: 10px; /* Adjust the gap between images as desired */
+}
+.grid-container-Restaurants {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-gap: 10px; /* Adjust the gap between images as desired */
+}
+
+.grid-container-other {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-gap: 10px; /* Adjust the gap between images as desired */
+}
+
 .grid-container a {
   display: block;
 }
@@ -365,7 +385,7 @@ input:checked ~ label > .control {
     --mem-width: 45vh;
   }
 }
-@media (min-width: 360px) and (max-width: 700px){
+@media (min-width: 360px) and (max-width: 700px) {
   :root {
     --mem-height: 57vh;
     --mem-width: 43vh;

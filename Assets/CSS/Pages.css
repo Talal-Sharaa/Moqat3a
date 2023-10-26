@@ -3,7 +3,7 @@
 :root {
   --color-one: #130e23;
   --color-two: #364b44;
-  --text-color: #c2e6ef;
+  --text-color: #ddf8ff;
   --mem-width: min(38em, calc(100vw - 4em));
   --mem-height: 45vh;
   --slide-duration: 0.9s;

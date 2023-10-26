@@ -9,8 +9,9 @@ const searchForm = document.getElementById('search-form');
         // Find the closest matching page name
         const pageNames = [
           'mcdonalds.html',
-          'burger-king.html',
-          'wendys.html',
+          '',
+          '',
+          ''
           // Add more page names as needed
         ];
 
