@@ -5,7 +5,7 @@
   --color-two: #364b44;
   --text-color: #c2e6ef;
   --mem-width: min(38em, calc(100vw - 4em));
-  --mem-height: 45vh;
+  --mem-height: 55vh;
   --slide-duration: 0.9s;
   --text-duration: 0.9s;
   --text-l-height: 1.5em;
@@ -127,9 +127,6 @@ input {
 
 label {
   width: 100%;
-  /*   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap; */
   display: grid;
   grid-template-columns: 1fr auto;
   grid-template-rows: auto auto;
@@ -139,7 +136,7 @@ label {
   background-color: #451952;
   transition: all 0.35s ease-in-out;
   padding: 0.5em;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 label > h4 {
@@ -171,6 +168,7 @@ label > .slider {
   justify-content: center;
   text-align: center;
   position: relative;
+  width: var(--mem-width + 5px);
 }
 
 .slider p {
@@ -337,16 +335,18 @@ input:checked ~ label > .control {
   .label {
     padding: 1em;
   }
-
+  label h4 {
+    font-size: 16px;
+  }
   main {
     font-size: 1rem;
   }
 }
 
-.grid-container {
+.grid-container-Hygine {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
   grid-gap: 10px; /* Adjust the gap between images as desired */
 }
 
@@ -359,7 +359,17 @@ input:checked ~ label > .control {
   height: auto;
 }
 
-@media (max-width: 799px) {
+@media (min-width: 300px) and (max-width: 359px) {
+  :root {
+    --mem-height: 75vh;
+    --mem-width: 45vh;
+  }
+}
+@media (min-width: 360px) and (max-width: 700px){
+  :root {
+    --mem-height: 57vh;
+    --mem-width: 43vh;
+  }
   .slider > img {
     height: 25vh;
   }
@@ -367,21 +377,28 @@ input:checked ~ label > .control {
     width: 55vw;
     font-size: 12px;
   }
+  .slider p ol {
+    font-size: 12px;
+    width: 60vw;
+  }
   label h4 {
     font-size: 16px;
+  }
+  .label {
+    font-size: 12px;
   }
 }
 @media (min-width: 800px) and (max-width: 990px) {
   .slider img {
     width: 28vw;
   }
+  :root {
+    --mem-height: 40vh;
+    --mem-width: 50vh;
+  }
 }
 @media all and (min-width: 1023px) {
   /*descktop*/
-  :root {
-    --mem-width: 38rem;
-    --mem-height: 40vh;
-  }
 
   .head {
     margin: 1em 0;
@@ -392,7 +409,9 @@ input:checked ~ label > .control {
   .label {
     padding: 1rem;
   }
-
+  label h4 {
+    font-size: 16px;
+  }
   body {
     background-size: min(calc(50wv-20rem), 100vmin), auto, auto;
   }
