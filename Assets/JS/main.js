@@ -8,6 +8,7 @@ searchForm.addEventListener("submit", function (e) {
   if (searchTerm !== "") {
     // Find the closest matching page name
     const pageNames = [
+      "NO.HTML",
       "mcdonalds-مكدونالدز.html",
       "Bounty-Bens-Maars-whiskas-skittles-snickers-m&m-م&م-سكيتلز- سنيكرز-ويسكاس-باونتي-.html",
       "always-gillette-olay-oral-crest-head&shoulders-pantine-duracell-braun-vicks-tide-downy-pampers-اولويز-بامبرز-جيليت-اولاي-اورال-هيد-اند-شولدرز-بانتين-دوراسل-براون-فيكس-تايد-داوني.html",
