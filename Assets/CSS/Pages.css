@@ -380,7 +380,7 @@ input:checked ~ label > .control {
   /*descktop*/
   :root {
     --mem-width: 38rem;
-    --mem-height: 40vh;
+    --mem-height: 45vh;
   }
 
   .head {
