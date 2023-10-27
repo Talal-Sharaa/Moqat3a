@@ -38,7 +38,8 @@ searchForm.addEventListener("submit", function (e) {
       "Monday-مونداي.html",
       "waze-ويز.html",
       "Siemens-سيمينز.html",
-      "Puma-بوما.html"
+      "Puma-بوما.html",
+      "Fiver-فايفر.html"
 
       // Add more page names as needed
     ];
