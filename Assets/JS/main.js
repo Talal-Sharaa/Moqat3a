@@ -21,7 +21,25 @@ searchForm.addEventListener("submit", function (e) {
       "Caterpillar-كاتربيلر.html",
       "Hyundai-هيونداي.html",
       "Pepsi-seven-marinda-dew-aquafinaa-أكوافينا-سيفن-بيبسي-ماريندا.html",
-      "Coca-cola-dew-sprite-fanta-monster-مونستر-سبرايت-فانتا-ديو-كولا.html"
+      "Coca-cola-dew-sprite-fanta-monster-مونستر-سبرايت-فانتا-ديو-كولا.html",
+      "intel-انتل.html",
+      "HP-اتشبي.html",
+      "Amazon-امازون.html",
+      "Apple-آبل-ابل.html",
+      "dell-ديل.html",
+      "IBM.html",
+      "Trip-advisor-تريب-ادفايزور.html",
+      "Microsoft-مايكروسوفت.html",
+      "Fiver-فايفر.html",
+      "wix-ويكس.html",
+      "Airbnb-اير.html",
+      "Booking-بوكينغ.html",
+      "DeviantArt-ديفيانت.html",
+      "Monday-مونداي.html",
+      "waze-ويز.html",
+      "Siemens-سيمينز.html",
+      "Puma-بوما.html"
+
       // Add more page names as needed
     ];
 

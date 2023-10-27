@@ -370,6 +370,13 @@ input:checked ~ label > .control {
   grid-gap: 10px; /* Adjust the gap between images as desired */
 }
 
+.grid-container-Important {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 10px; /* Adjust the gap between images as desired */
+}
+
 .grid-container a {
   display: block;
 }
