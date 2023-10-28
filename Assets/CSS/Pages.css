@@ -387,6 +387,12 @@ input:checked ~ label > .control {
     width: 28vw;
   }
 }
+@media (min-width: 300px) and (max-width: 400px) {
+  .Unilever {
+    max-width: 40%;
+  }
+}
+
 @media all and (min-width: 1023px) {
   /*descktop*/
   :root {
