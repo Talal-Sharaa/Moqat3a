@@ -40,7 +40,8 @@ searchForm.addEventListener("submit", function (e) {
       "waze-ويز.html",
       "Siemens-سيمينز.html",
       "Puma-بوما.html",
-      "Fiver-فايفر.html"
+      "Fiver-فايفر.html",
+      "Bounty-Bens-Mars-مارس-whiskas-skittles-snickers-m&m-م&م-سكيتلز- سنيكرز-ويسكاس-باونتي-.html"
 
       // Add more page names as needed
     ];

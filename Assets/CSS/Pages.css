@@ -349,7 +349,18 @@ input:checked ~ label > .control {
   grid-template-rows: repeat(2, 1fr);
   grid-gap: 10px; /* Adjust the gap between images as desired */
 }
-
+.grid-container-1-1 {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-gap: 10px; /* Adjust the gap between images as desired */
+}
+.grid-container-1-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-gap: 10px; /* Adjust the gap between images as desired */
+}
 .grid-container a {
   display: block;
 }
