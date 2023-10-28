@@ -45,7 +45,8 @@ searchForm.addEventListener("submit", function (e) {
       "loreal-لوريال-فيتشي-Vichy.html",
       "شيبسي-ليز-lays.html",
       "knorr-كنور-lipton-ليبتون.html",
-      "Starbucks-ستاربكس.html"
+      "Starbucks-ستاربكس.html",
+      "Costa-كوستا.html"
       // Add more page names as needed
     ];
 
