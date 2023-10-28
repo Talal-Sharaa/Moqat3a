@@ -44,7 +44,8 @@ searchForm.addEventListener("submit", function (e) {
       "Bounty-Bens-Mars-مارس-whiskas-skittles-snickers-m&m-م&م-سكيتلز- سنيكرز-ويسكاس-باونتي-.html",
       "loreal-لوريال-فيتشي-Vichy.html",
       "شيبسي-ليز-lays.html",
-      "knorr-كنور-lipton-ليبتون.html"
+      "knorr-كنور-lipton-ليبتون.html",
+      "Starbucks-ستاربكس.html"
       // Add more page names as needed
     ];
 
