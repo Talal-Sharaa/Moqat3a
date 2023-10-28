@@ -42,7 +42,7 @@ searchForm.addEventListener("submit", function (e) {
       "Puma-بوما.html",
       "Fiver-فايفر.html",
       "Bounty-Bens-Mars-مارس-whiskas-skittles-snickers-m&m-م&م-سكيتلز- سنيكرز-ويسكاس-باونتي-.html",
-      "loreal-لوريال.html",
+      "loreal-لوريال-فيتشي-Vichy.html",
       "شيبسي-ليز-lays.html",
       "knorr-كنور-lipton-ليبتون.html"
       // Add more page names as needed
