@@ -12,7 +12,7 @@ searchForm.addEventListener("submit", function (e) {
       "mcdonalds-مكدونالدز.html",
       "Bounty-Bens-Maars-whiskas-skittles-snickers-m&m-م&م-سكيتلز- سنيكرز-ويسكاس-باونتي-.html",
       "always-gillette-olay-oral-crest-head&shoulders-pantine-duracell-braun-vicks-tide-downy-pampers-اولويز-بامبرز-جيليت-اولاي-اورال-هيد-اند-شولدرز-بانتين-دوراسل-براون-فيكس-تايد-داوني.html",
-      "Dove-Axe-Sunsilk-Vim-Close-Comfort-Lipton-Knorr-كنور-دوف-صن-سيلك-فيم-فازلين-vaseline-كومفورت-اكس-كلوز-ليبتون-tresemme-تريزيميه.html",
+      "Dove-Axe-Sunsilk-Vim-Close-Comfort-كنور-دوف-صن-سيلك-فيم-فازلين-vaseline-كومفورت-اكس-كلوز-tresemme-تريزيميه.html",
       "Johnson&Johnson-جونسون.html",
       "Garnier-Nestle-Nesquik-purina-kitkat-aero-smarties-ralph-giorgio-armani-nescafe-shop-شوب-بورينا-كيتكات-ايرو-نيسكافيه-نسكويك-رالف-جارنييه-ميبيلين-maybeline.html",
       "كرافت-هاينز-kraft-heinz.html",
@@ -44,6 +44,7 @@ searchForm.addEventListener("submit", function (e) {
       "Bounty-Bens-Mars-مارس-whiskas-skittles-snickers-m&m-م&م-سكيتلز- سنيكرز-ويسكاس-باونتي-.html",
       "loreal-لوريال.html",
       "شيبسي-ليز-lays.html",
+      "knorr-كنور-lipton-ليبتون.html"
       // Add more page names as needed
     ];
 
