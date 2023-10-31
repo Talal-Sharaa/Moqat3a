@@ -10,11 +10,9 @@ searchForm.addEventListener("submit", function (e) {
     const pageNames = [
       "NO.HTML",
       "mcdonalds-مكدونالدز.html",
-      "Bounty-Bens-Maars-whiskas-skittles-snickers-m&m-م&م-سكيتلز- سنيكرز-ويسكاس-باونتي-.html",
-      "always-gillette-olay-oral-crest-head&shoulders-pantine-duracell-braun-vicks-tide-downy-pampers-اولويز-بامبرز-جيليت-اولاي-اورال-هيد-اند-شولدرز-بانتين-دوراسل-براون-فيكس-تايد-داوني.html",
-      "Dove-Axe-Sunsilk-Vim-Close-Comfort-كنور-دوف-صن-سيلك-فيم-فازلين-vaseline-كومفورت-اكس-كلوز-tresemme-تريزيميه.html",
+      "always-اولويز.html",
       "Johnson&Johnson-جونسون.html",
-      "Garnier-Nestle-Nesquik-purina-kitkat-aero-smarties-ralph-giorgio-armani-nescafe-shop-شوب-بورينا-كيتكات-ايرو-نيسكافيه-نسكويك-رالف-جارنييه-ميبيلين-maybeline.html",
+      "Nestle-Nesquik-kitkat-aero-nescafe-كيتكات-ايرو-نيسكافيه-نسكويك-.html",
       "كرافت-هاينز-kraft-heinz.html",
       "pizza-hut-بيتزا-هت.html",
       "كلينكس-كلينيكس-kleenex.html",
@@ -22,7 +20,7 @@ searchForm.addEventListener("submit", function (e) {
       "Caterpillar-كاتربيلر.html",
       "Hyundai-هيونداي.html",
       "Pepsi-seven-marinda-dew-aquafinaa-أكوافينا-سيفن-بيبسي-ماريندا.html",
-      "Coca-cola-dew-sprite-fanta-monster-مونستر-سبرايت-فانتا-ديو-كولا.html",
+      "Coca-cola-dew-sprite-fanta-سبرايت-فانتا-ديو-كولا.html",
       "intel-انتل.html",
       "HP-اتشبي.html",
       "Amazon-امازون.html",
@@ -41,12 +39,48 @@ searchForm.addEventListener("submit", function (e) {
       "Siemens-سيمينز.html",
       "Puma-بوما.html",
       "Fiver-فايفر.html",
-      "Bounty-Bens-Mars-مارس-whiskas-skittles-snickers-m&m-م&م-سكيتلز- سنيكرز-ويسكاس-باونتي-.html",
+      "Bounty-Bens-Mars-مارس-snickers- سنيكرز-باونتي-.html",
       "loreal-لوريال-فيتشي-Vichy.html",
       "شيبسي-ليز-lays.html",
       "knorr-كنور-lipton-ليبتون.html",
       "Starbucks-ستاربكس.html",
-      "Costa-كوستا.html"
+      "Costa-كوستا.html",
+      "pampers-بامبرز.html",
+      "gillette-جيليت.html",
+      "olay-أولاي.html",
+      "Cadbury-كادبوري.html",
+      "close-كلوز.html",
+      "crest-كريست.html",
+      "Dove-دوف.html",
+      "Fayrouz-فيروز.html",
+      "Axe-اكس.html",
+      "sunsilk-صنسيلك.html",
+      "vim-فيم.html",
+      "comfort-كومفورت.html",
+      "vaseline-فازلين.html",
+      "tresemme-تريزيميه.html",
+      "purina-بورينا.html",
+      "Garnier-جارنييه.html",
+      "Maggi-ماجي.html",
+      "head&shoulder-هيد-شولدرز.html",
+      "oral-اورال.html",
+      "duracell-دوراسل.html",
+      "braun-براون.html",
+      "tide-تايد.html",
+      "vicks-فيكس.html",
+      "downy-داوني.html",
+      "Herbal-Essence-هيربال.html",
+      "m&ms.html",
+      "Barbican-باربيكان.html",
+      "Monster-مونستر.html",
+      "Moussy-موسي-موسى.html",
+      "maybeline-ميبيلين.html",
+      "smarties-سمارتيز.html",
+      "Maltesers-مالتيزرز.html",
+      "signal-سيجنال.html",
+      "Pantene-بانتين.html",
+      "Skittles-سكيتلز.html",
+      "whiskas-ويسكاس.html"
       // Add more page names as needed
     ];
 
@@ -62,7 +96,7 @@ searchForm.addEventListener("submit", function (e) {
     });
 
     // Redirect to the closest matching page
-    window.location.href = closestMatch;
+    window.location.href = "Companies/" + closestMatch;
   }
 });
 
