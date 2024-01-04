@@ -12,13 +12,16 @@
   padding: 0;
 }
 .navbar {
-  background-color: var(--color-light);
+  background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white */
   color: #fff;
   padding: 10px 0;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100vw;
+  backdrop-filter: blur(10px); /* This will give the glassy effect */
+  -webkit-backdrop-filter: blur(10px); /* For Safari */
+  /*border: 1px solid rgba(255, 255, 255, 0.18); /*Optional: You can add a border if you want */
 }
 
 .navbar ul {
@@ -34,7 +37,7 @@
 
 .navbar li a {
   display: block;
-  color: var(--color-dark);
+  color: var(--color-light);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;

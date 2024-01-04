@@ -133,7 +133,10 @@ label {
   grid-template-areas: "h4 control" "img img";
   margin-bottom: 1em;
   border-radius: 0.5em;
-  background-color: #451952;
+  background-color: rgba(69, 25, 82, 0.6); /* Semi-transparent purple */
+  backdrop-filter: blur(10px); /* This will give the glassy effect */
+  -webkit-backdrop-filter: blur(10px); /* For Safari */
+  border: 1px solid rgba(255, 255, 255, 0.18); /* Optional: You can add a border if you want */
   transition: all 0.35s ease-in-out;
   padding: 0.5em;
   font-size: 14px;
@@ -324,11 +327,12 @@ input:checked ~ label > .control {
 
 @media all and (min-width: 1px) and (max-width: 1920px) {
   body {
-    background-image: url(Assets/imgs/Free_Paalestine.jpg),
+    background-image: url(/Assets/imgs/Free_Palestine.png),
       url("https://lidachk.github.io/cssBayan/cssBayan/assets/filter.svg"),
       linear-gradient(90deg, #500101, #500101, #500101);
+    background-size: cover; /* This will make the image take the full width */
+    background-repeat: no-repeat; /* This will prevent the image from repeating */
   }
-}
 @media all and (min-width: 820px) and (max-width: 1022px) {
   /*tablet*/
 
