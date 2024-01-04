@@ -1,9 +1,7 @@
 body {
-  margin: 0;
   padding: 0;
   background-color: #490e0e;
   padding-bottom: 100px;
-  font-family: "Almarai", sans-serif;
   --color-light: #fff;
   --color-dark: #2f2f2f;
 
