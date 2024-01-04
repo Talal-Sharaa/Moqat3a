@@ -158,10 +158,6 @@ textarea {
   padding: 0;
 }
 
-.social-media-list li a {
-  color: #fff;
-}
-
 .social-media-list li {
   position: relative;
   display: inline-block;
@@ -174,11 +170,11 @@ textarea {
   background-color: rgb(228, 228, 228);
   cursor: pointer;
   transition: all 0.2s ease-in-out;
+
 }
 
 .social-media-list li:after {
   content: "";
-  position: absolute;
   top: 0;
   left: 0;
   width: 60px;
