@@ -51,7 +51,7 @@ body {
   background-blend-mode: lighten;
   background-attachment: fixed;
   background-size: 100vmin, auto, auto;
-  animation: start1 2s ease-in-out;
+  animation: start1 0.2s ease-in-out;
 }
 
 @keyframes start {
